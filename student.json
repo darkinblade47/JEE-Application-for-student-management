@@ -1,0 +1,36 @@
+{
+  "student": [
+    {
+      "varsta": 21,
+      "anNastere": 2001,
+      "prenume": "Prenume1",
+      "id": 1,
+      "nume": "Nume1",
+      "email": "email1@gmail.com\n"
+    },
+    {
+      "varsta": 21,
+      "anNastere": 2001,
+      "prenume": "Prenume2",
+      "id": 2,
+      "nume": "Nume2",
+      "email": "email2@yahoo.com\n"
+    },
+    {
+      "varsta": 21,
+      "anNastere": 2001,
+      "prenume": "Prenume3",
+      "id": 3,
+      "nume": "Nume3",
+      "email": "email3@yahoo.com\n"
+    },
+    {
+      "varsta": 21,
+      "anNastere": 2001,
+      "prenume": "Prenume4",
+      "id": 4,
+      "nume": "Nume4",
+      "email": "email4@yahoo.com\n"
+    }
+  ]
+}

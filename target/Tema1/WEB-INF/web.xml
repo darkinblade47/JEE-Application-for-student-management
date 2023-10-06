@@ -1,0 +1,67 @@
+<web-app>
+    <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+        <servlet-name>Hello</servlet-name>
+        <servlet-class>HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Hello</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ProcessStudent</servlet-name>
+        <servlet-class>ProcessStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProcessStudent</servlet-name>
+        <url-pattern>/process-student</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReadStudent</servlet-name>
+        <servlet-class>ReadStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReadStudent</servlet-name>
+        <url-pattern>/read-student</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FindStudent</servlet-name>
+        <servlet-class>FindServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FindStudent</servlet-name>
+        <url-pattern>/find-student</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ConvertJsonServlet</servlet-name>
+        <servlet-class>ConvertJsonServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ConvertJsonServlet</servlet-name>
+        <url-pattern>/convert-status</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateStudentServlet</servlet-name>
+        <servlet-class>UpdateStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateStudentServlet</servlet-name>
+        <url-pattern>/update-student</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteStudentServlet</servlet-name>
+        <servlet-class>DeleteStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteStudentServlet</servlet-name>
+        <url-pattern>/delete-student</url-pattern>
+    </servlet-mapping>
+
+</web-app>
